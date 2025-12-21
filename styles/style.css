@@ -13,4 +13,100 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-variation-settings: var(--main-font);
+  font-size: var(--main-font-size);
+  background-image: var(--bg-gradient);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-size {
+  inline-size: var(--section-inline-size);
+  margin: auto;
+  border: solid 2px black;
+}
+
+.header {
+  padding-block-start: clamp(122px, 19cqi, 130px);
+  padding-block-end: clamp(122px, 19cqi, 130px);
+  text-align: center;
+  margin-block-end: 100px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.logo {
+  font-family: var(--accent-font);
+}
+
+.header .logo {
+  font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+}
+
+.header__title {
+  font-family: var(--accent-font);
+  font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+}
+
+.card__label {
+  font-size: var(--main-font-size);
+  font-weight: var(--heading-font-weight);
+  line-height: 150%;
+}
+
+.card__image {
+  position: relative;
+  inline-size: 100%;
+}
+
+.card__image .logo {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  mix-blend-mode: hard-light;
+  text-shadow: 1px var(--text-stroke-color);
+}
+
+@supports (-webkit-text-stroke: 1px var(--text-stroke-color)) {
+  .card__image .logo {
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+    text-shadow: none;
+  }
+}
+
+.card__image img {
+  inline-size: 100%;
+}
+
+.card__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+}
+
+.card__like-container {
+  display: flex;
+  gap: 7px;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.button__text {
+  font-family: var(--accent-font);
+  font-size: 14px;
+}
+
+.card__like-button {
+  inline-size: 130px;
+  block-size: 38px;
+  border: 2px solid black;
 }
