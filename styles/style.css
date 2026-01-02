@@ -162,6 +162,77 @@
   border: 2px solid var(--main-color);
 }
 
+.core {
+  transition: fill 0.3s 0.03s linear;
+}
+
+.like-icon {
+  transform-origin: center;
+}
+
+.like-icon:hover .core {
+  fill: var(--contour-color);
+  transition: fill 0.3s 0s linear;
+}
+
+.like-icon:active .core {
+  fill: var(--animation-fill-color);
+  transition: fill 0.3s 0s linear;
+}
+
+.is-liked .core {
+  fill: var(--animation-fill-color);
+  transition: fill 0.3s 0s linear;
+}
+
+.is-liked:hover .core {
+  fill: var(--animation-fill-color);
+}
+
+.main-body {
+  transition: fill 0.3s 0s linear;
+}
+
+.like-icon:hover .main-body {
+  fill: var(--contour-color);
+  transition: fill 0.3s 0.05s linear;
+}
+
+.like-icon:active .main-body {
+  fill: var(--animation-fill-color);
+  transition: fill 0.3s 0.05s linear;
+}
+
+.is-liked .main-body {
+  fill: var(--animation-fill-color);
+  transition: fill 0.3s 0.05s linear;
+}
+
+.is-liked:hover .main-body {
+  fill: var(--animation-fill-color);
+}
+
+.contour {
+  transition: fill 0.1s 0s linear;
+}
+
+.is-liked .contour {
+  fill: var(--animation-fill-color);
+  transition: fill 0.3s 0.06s linear;
+}
+
+.sparks {
+  opacity: 0;
+}
+
+.is-liked .sparks {
+  animation: sparks 0.3s ease-in 0.3s;
+}
+
+.is-liked .heart {
+  animation: heart 0.3s ease-in 0.1s 1;
+}
+
 .card__like-button {
   inline-size: 130px;
   block-size: 38px;
