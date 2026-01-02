@@ -9,5 +9,7 @@
                  repeating-linear-gradient(90deg #d3d3d3 0px 2px, transparent 2px 4px),
                  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --section-inline-size: clamp(375px, 260.56px + 30.52vw, 700px);
-  --text-stroke-color: rgba(255, 255, 255, 0.5)
+  --text-stroke-color: rgba(255, 255, 255, 0.5);
+  --main-color: #000;
+  --bg-color: #fff;
 }
