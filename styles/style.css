@@ -106,6 +106,7 @@
 .card__like-container {
   display: flex;
   justify-content: flex-end;
+  gap: 7px;
 }
 
 .button {
@@ -148,8 +149,17 @@
 }
 
 .card__icon-button {
-  border: none;
+  align-self: center;
+  block-size: 38px;
+  padding: 0;
+  border: solid 2px transparent;
   background-color: transparent;
+  outline: none;
+  transition: outline 0.3s ease;
+}
+
+.card__icon-button:focus-visible {
+  border: 2px solid var(--main-color);
 }
 
 .card__like-button {
@@ -253,6 +263,3 @@
     padding: 30px 40px;
   }
 }
-
-
-
