@@ -247,35 +247,35 @@
   block-size: 38px;
 }
 
-.preparing .card__image {
+.preparing .card__image img {
   filter: brightness(150%);
 }
 
-.work__it .card__image {
+.work__it .card__image img {
   filter: blur(0.3rem);
 }
 
-.make__it .card__image {
+.make__it .card__image img {
   filter: grayscale(80%);
 }
 
-.faster .card__image {
+.faster .card__image img {
   filter: saturate(136%);
 }
 
-.better .card__image {
+.better .card__image img {
   filter: sepia(75%);
 }
 
-.stronger .card__image {
+.stronger .card__image img {
   filter: invert(75%);
 }
 
-.harder .card__image {
+.harder .card__image img {
   filter: sepia(1) saturate(120%);
 }
 
-.right__now .card__image {
+.right__now .card__image img {
   filter: hue-rotate(-35deg);
 }
 

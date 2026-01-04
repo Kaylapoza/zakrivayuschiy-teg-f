@@ -14,6 +14,6 @@
     local('inter'),
     url(../fonts/Inter-Variable.woff2) format('woff2 supports variations'),
     url(../fonts/Inter-Variable.woff2) format('woff2-variations');
-  font-weight: 410, 715;
-  font-variation-settings: ;
+  font-weight: 410 715;
+  font-style: normal;
 }
