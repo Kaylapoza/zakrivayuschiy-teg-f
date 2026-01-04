@@ -13,6 +13,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-variation-settings: 'wght' 410;
   font-family: var(--main-font);
   font-size: var(--main-font-size);
   background-image: var(--bg-gradient);
@@ -64,7 +65,7 @@
 
 .card__label {
   font-size: var(--main-font-size);
-  font-weight: var(--heading-font-weight);
+  font-variation-settings: 'wght' 715;
   line-height: var(--heading-line-height);
   padding: 4px 10px;
 }
