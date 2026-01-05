@@ -3,7 +3,7 @@
 :root {
   --main-font: Inter, sans-serif;
   --main-font-size: 18px;
-  --accent-font: 'Press Start 2P', sans-serif;
+  --accent-font: 'Press Start 2P', fantasy;
   --heading-font-weight: 715;
   --heading-line-height: clamp(19.8px, 25.64px + -0.41vw, 24.12px);
   --bg-gradient:
@@ -11,7 +11,7 @@
     repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
   --section-inline-size: clamp(375px, 260.56px + 30.52vw, 700px);
-  --text-stroke-color: rgba(255, 255, 255, 0.5);
+  --text-stroke-color: rgb(255, 255, 255);
   --main-color: #000;
   --bg-color: #fff;
   --contour-color: #000;
